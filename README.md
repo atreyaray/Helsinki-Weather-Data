@@ -29,4 +29,7 @@ The data consisted of measurements by the weather station 2978 in Helsinki from 
 ### Plots
 
 Data exploration was done using histograms, pair plots, and a correlation matrix. 
+
 ![Figure 1: The histogram plotting Tx_mu (maximum air temperature) and Tn_mu (minimum air temperature)](Temp.png)
+
+![Figure 2: The pair plot plotted the attributes T_mu, P_mu, Td_mu, Ff_mu, VV_mu, and U_mu](Multi.png)
