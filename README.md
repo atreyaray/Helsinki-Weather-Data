@@ -1,6 +1,6 @@
 # Predicting Helsinki's Humidity Levels using Station Weather Data and Identifying the Relationship between Humidity and other Weather Attributes
 
-        by Atreya Ray and Long Nguyen
+    by Atreya Ray and Long Nguyen
 
 ### Abstract
 
