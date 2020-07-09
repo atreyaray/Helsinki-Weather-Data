@@ -32,4 +32,8 @@ Data exploration was done using histograms, pair plots, and a correlation matrix
 
 ![Figure 1: The histogram plotting Tx_mu (maximum air temperature) and Tn_mu (minimum air temperature)](Temp.png)
 
+Figure 1 showed that both the distributions were bimodal due to the seasonal nature of temperature.
+
 ![Figure 2: The pair plot plotted the attributes T_mu, P_mu, Td_mu, Ff_mu, VV_mu, and U_mu](Multi.png)
+
+The plots showed a strong correlation between T_mu and Td_mu which appeared to be a positive correlation. Overall, there were no significant observations from the pair plot.
