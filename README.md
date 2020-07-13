@@ -135,13 +135,13 @@ The most elementary prediction method, multiple regression yielded the best resu
 ---
 ### References
 
-https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
-https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
-https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
-https://seaborn.pydata.org/generated/seaborn.heatmap.html
-https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.htmlhttps://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.concat.html
-https://docs.scipy.org/doc/numpy/reference/generated/numpy.array.html
-https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.plot.html
-https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.hist.html
-https://seaborn.pydata.org/generated/seaborn.pairplot.html
+(https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
+(https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+(https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
+(https://seaborn.pydata.org/generated/seaborn.heatmap.html)
+(https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.htmlhttps://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.concat.html)
+(https://docs.scipy.org/doc/numpy/reference/generated/numpy.array.html)
+(https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.plot.html)
+(https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.hist.html)
+(https://seaborn.pydata.org/generated/seaborn.pairplot.html)
 
