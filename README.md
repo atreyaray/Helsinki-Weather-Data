@@ -75,3 +75,36 @@ Additionally, the PCA projection to the first 2 components was generated as foll
 
 ![Figure 5](Scatter.png)
 
+
+---
+### Methods
+
+We used multiple linear regression for all variables using the inbuilt methods in sklearn.linear_model.LinearRegression(). Furthermore, we standardised data to a distribution with mean 0 and variance 1. The Regression model was generated using the Least Squares method which optimally minimises the sum of squared distances of the actual points from the predicted values.
+
+Additionally, we used the KNN supervised learning method to classify the data into ‘wet’ or 'dry'. Using the error rates of k, we determined the optimal number of nearest neighbours for accurate clustering. Here too, we used the inbuilt methods of sklearn.decomposition.PCA to generate the results.
+
+Lastly, we used the data with reduced dimensionality (through PCA) for the KNN classifier. From the data with 16 dimensions, we only picked 2 Principal Components and generated the confusion matrix for it.
+
+---
+### Experiments and Results
+
+The multiple linear regression model generated had the coefficients:
+
+-4.37863567e+00
+ 9.58574486e-01
+-9.86675980e-01
+-2.07551005e-01
+ 2.78131793e-01
+-3.37839112e-01
+-6.27401941e-02
+ 4.55441867e+00
+ 5.60519848e-02
+ 1.59683856e-01
+-1.54021900e-01
+-2.64359894e-02
+ 4.41774361e-02
+-8.67669196e-03
+ 8.28122077e-04
+ 4.66677141e-02
+
+
