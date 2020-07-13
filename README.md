@@ -119,7 +119,7 @@ The mean squared error of this linear regression model was calculated to be: 2.4
 
 For the KNN classifier, we determined the optimal number for the nearest neighbours to be 15 where the error in classifying would be least.
 
-[Figure 8](Error.png)
-[Figure 9](Confusion.png)
+![Figure 8](Error.png)
+![Figure 9](Confusion.png)
 
 
