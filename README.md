@@ -37,3 +37,20 @@ Figure 1 showed that both the distributions were bimodal due to the seasonal nat
 ![Figure 2: The pair plot plotted the attributes T_mu, P_mu, Td_mu, Ff_mu, VV_mu, and U_mu](Multi.png)
 
 The plots showed a strong correlation between T_mu and Td_mu which appeared to be a positive correlation. Overall, there were no significant observations from the pair plot.
+
+![Figure 3: Correlation Matrix](Correlation.png)
+
+Figure 3 was extremely interesting as it showed a negative correlation between the relative humidity and the horizontal visibility. An increase in the 
+humidity leads to reduced horizontal visibility. Additionally, the wind speed (Ff) had an extremely weak correlation with the relative humidity which deemed it an insignificant factor.
+
+---
+
+### PCA
+
+To reduce the dimensionality of the data, PCA was applied. Data was scaled in [-1,1] and then the inbuilt class PCA of sklearn.decomposition was used to generate 16 components of PCA. Plotting the explained variance for components of PCA showed that PC 1 described 26.85% of the variance while including PC 2 increased the spread of variance to 46.71%. The 95% mark for cumulative variance explained was reached at PC 9 while 99% of the variance was described at PC 11.
+
+![Figure 4](PCA.png)
+
+Cumulative explained variance for the various components was:
+
+0.2698555118733149	 0.44995910563699  	   0.604714956368203	 0.6947744305866641	    0.7623981826675998	                                                 0.818861933617128.   0.8709540862971437 	0.9187512853485493	  0.9573101576530113	 0.9872436617521955   0.9968611304730552	                    0.9994234882083479   0.9998831818071945    0.9999979496937165	 0.9999999382029308	    0.9999999999999999
