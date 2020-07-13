@@ -127,5 +127,21 @@ For the KNN classifier, we determined the optimal number for the nearest neighbo
 Applying the KNN classifier, we determined the accuracy of the classifier to be 79%.
 Confusion matrix generated after PCA was 69% accurate.
 
+---
+### Conclusion
 
+The most elementary prediction method, multiple regression yielded the best results with an error of approximately 2.429%. As the value of the error rate was within an acceptable range, our model is a fairly accurate model to predict the relative humidity of Helsinki. The weights of the different factors were also determined by the coefficients of the model which pointed out that the mean temperature and dewpoint temperature were the single largest factors affecting the relative humidity. Another noteworthy factor included the atmospheric pressure variable. With PCA, there was a small drop in the accuracy of the classifier with an accuracy of around 69%. The drop in the accuracy was due to the fact that the cumulative variance described by the first two principal components was less than 50%.
+
+---
+### References
+
+https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
+https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
+https://seaborn.pydata.org/generated/seaborn.heatmap.html
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.htmlhttps://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.concat.html
+https://docs.scipy.org/doc/numpy/reference/generated/numpy.array.html
+https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.plot.html
+https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.hist.html
+https://seaborn.pydata.org/generated/seaborn.pairplot.html
 
