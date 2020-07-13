@@ -122,4 +122,8 @@ For the KNN classifier, we determined the optimal number for the nearest neighbo
 ![Figure 8](Error.png)
 ![Figure 9](Confusion.png)
 
+Applying the KNN classifier, we determined the accuracy of the classifier to be 79%.
+Confusion matrix generated after PCA was 69% accurate.
+
+
 
