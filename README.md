@@ -107,4 +107,11 @@ The multiple linear regression model generated had the coefficients:
  8.28122077e-04
  4.66677141e-02
 
+The mean squared error of this linear regression model was calculated to be: 2.4295688076984123 % which was an acceptable margin of error from the actual values of the test set.
+
+![Figure 6: The figure shows the visualisation of the linear model, where the actual values of relative humidity from the test set were plotted as a scatter plot while the model was plotted as a continuous function.](Regression.png)
+
+---
+
+![Figure 7:Visualisation of the error rate in k](ErrorKNN.png)
 
