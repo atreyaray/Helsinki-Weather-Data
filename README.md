@@ -30,15 +30,15 @@ The data consisted of measurements by the weather station 2978 in Helsinki from 
 
 Data exploration was done using histograms, pair plots, and a correlation matrix. 
 
-![Figure 1: The histogram plotting Tx_mu (maximum air temperature) and Tn_mu (minimum air temperature)](Temp.png)
+![Figure 1: The histogram plotting Tx_mu (maximum air temperature) and Tn_mu (minimum air temperature)](images/Temp.png)
 
 Figure 1 showed that both the distributions were bimodal due to the seasonal nature of temperature.
 
-![Figure 2: The pair plot plotted the attributes T_mu, P_mu, Td_mu, Ff_mu, VV_mu, and U_mu](Multi.png)
+![Figure 2: The pair plot plotted the attributes T_mu, P_mu, Td_mu, Ff_mu, VV_mu, and U_mu](images/Multi.png)
 
 The plots showed a strong correlation between T_mu and Td_mu which appeared to be a positive correlation. Overall, there were no significant observations from the pair plot.
 
-![Figure 3: Correlation Matrix](Correlation.png)
+![Figure 3: Correlation Matrix](images/Correlation.png)
 
 Figure 3 was extremely interesting as it showed a negative correlation between the relative humidity and the horizontal visibility. An increase in the 
 humidity leads to reduced horizontal visibility. Additionally, the wind speed (Ff) had an extremely weak correlation with the relative humidity which deemed it an insignificant factor.
@@ -49,7 +49,7 @@ humidity leads to reduced horizontal visibility. Additionally, the wind speed (F
 
 To reduce the dimensionality of the data, PCA was applied. Data was scaled in [-1,1] and then the inbuilt class PCA of sklearn.decomposition was used to generate 16 components of PCA. Plotting the explained variance for components of PCA showed that PC 1 described 26.85% of the variance while including PC 2 increased the spread of variance to 46.71%. The 95% mark for cumulative variance explained was reached at PC 9 while 99% of the variance was described at PC 11.
 
-![Figure 4](PCA.png)
+![Figure 4](images/PCA.png)
 
 Cumulative explained variance for the various components was:
 
@@ -73,7 +73,7 @@ Cumulative explained variance for the various components was:
 
 Additionally, the PCA projection to the first 2 components was generated as follows:
 
-![Figure 5](Scatter.png)
+![Figure 5](images/Scatter.png)
 
 
 ---
@@ -109,19 +109,19 @@ The multiple linear regression model generated had the coefficients:
 
 The mean squared error of this linear regression model was calculated to be: 2.4295688076984123 % which was an acceptable margin of error from the actual values of the test set.
 
-![Figure 6: The figure shows the visualisation of the linear model, where the actual values of relative humidity from the test set were plotted as a scatter plot while the model was plotted as a continuous function.](Regression.png)
+![Figure 6: The figure shows the visualisation of the linear model, where the actual values of relative humidity from the test set were plotted as a scatter plot while the model was plotted as a continuous function.](images/Regression.png)
 
 ---
 
-![Figure 7:Visualisation of the error rate in k](ErrorKNN.png)
+![Figure 7:Visualisation of the error rate in k](images/ErrorKNN.png)
 
 ---
 
 For the KNN classifier, we determined the optimal number for the nearest neighbours to be 15 where the error in classifying would be least.
 
-![Figure 8](Error.png)
+![Figure 8](images/Error.png)
 ---
-![Figure 9](Confusion.png)
+![Figure 9](images/Confusion.png)
 ---
 
 Applying the KNN classifier, we determined the accuracy of the classifier to be 79%.
@@ -133,7 +133,7 @@ Confusion matrix generated after PCA was 69% accurate.
 The most elementary prediction method, multiple regression yielded the best results with an error of approximately 2.429%. As the value of the error rate was within an acceptable range, our model is a fairly accurate model to predict the relative humidity of Helsinki. The weights of the different factors were also determined by the coefficients of the model which pointed out that the mean temperature and dewpoint temperature were the single largest factors affecting the relative humidity. Another noteworthy factor included the atmospheric pressure variable. With PCA, there was a small drop in the accuracy of the classifier with an accuracy of around 69%. The drop in the accuracy was due to the fact that the cumulative variance described by the first two principal components was less than 50%.
 
 ---
-### References
+### References and Links
 
 (https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
 (https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
