@@ -30,7 +30,7 @@ The data consisted of measurements by the weather station 2978 in Helsinki from 
 
 Data exploration was done using histograms, pair plots, and a correlation matrix. 
 
-![Figure 1: The histogram plotting Tx_mu (maximum air temperature) and Tn_mu (minimum air temperature)](images/Temp.png)
+![Figure 1: The histogram plotting Tx_mu (maximum air temperature) and Tn_mu (minimum air temperature)](images/Histogram.png)
 
 Figure 1 showed that both the distributions were bimodal due to the seasonal nature of temperature.
 
